@@ -7,7 +7,7 @@ var topKFrequent = function(nums, k) {
   }
 
   for (const [n, c] of Object.entries(count_map)) {
-    freq_arr[c].push(parseInt(n)) 
+    freq_arr[c].push(Number(n)) 
   }
 
   res = []
